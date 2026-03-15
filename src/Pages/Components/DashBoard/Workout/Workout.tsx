@@ -9,7 +9,7 @@ import {
   ChefHat,
   LogOut,
 } from "lucide-react";
-import { supabase, type Workout, type Exercise } from "../lib/supabase";
+import { supabase, type Workout, type Exercise } from "@/SupaBase/supabase";
 
 interface WorkoutDashboardProps {
   userId: string;
